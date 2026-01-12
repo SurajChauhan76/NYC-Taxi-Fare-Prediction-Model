@@ -1,0 +1,42 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore hidden notebook metadata
+*.ipynb-meta
+
+# Ignore temporary notebook files
+*.ipynb.tmp
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# Ignore environment files
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Ignore common data files
+# *.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+*.xml
+
+# Ignore logs
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore the Kaggle data files
+.kaggle_test_data/
